@@ -2,7 +2,7 @@ import { BuiltinMask } from "./typing";
 
 export const EN_MASKS: BuiltinMask[] = [   {
     avatar: "1f603",
-    name: "Diplomatic Email Generator",
+    name: "JSON Formatter",
     context: [
       {
         id: "expert-0",
@@ -19,7 +19,7 @@ export const EN_MASKS: BuiltinMask[] = [   {
       }
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gpt-3.5-turbo",
       temperature: 0.2,
       max_tokens: 2000,
       presence_penalty: 0,
